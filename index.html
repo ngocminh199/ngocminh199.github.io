@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/flexslider.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="all">
+            <div id="logo">
+              <img src="image/download.png" height="100%" width="20%" >
+            </div>
+            <nav>
+              <ul>
+              <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="giaynam.html">Giày Nam</a></li>
+                <li><a href="">Giày Nữ</a></li>
+                <li><a href="Chitiet.html">Khuyến Mãi</a></li>
+                <li><a href="lienhe.html">Liên Hệ</a></li>
+                <li><a href="giohang.html">Giỏ Hàng</a></li>
+              </ul>
+            </nav>
+                    <div class="flexslider">
+                          <ul class="slides" >
+                            <li>
+                              <img src="image/banner1.jpg" style="height: 584px; width: 1230px;"/>
+                              </li>
+                              <li>
+                               <img src="image/banner2.jpg" style="height: 584px; width: 1230px;"/>
+                               </li>
+                            <li>
+                              <img src="image/banner4.jpg"style="height: 584px; width: 1230px;"/>
+                              </li>
+                          </ul>
+                        </div>
+      <section>
+            <div id="nam">
+              <img src="image/anh2.jpg" class="image" width="99%" height="100%">
+              <div id="middle">
+              <div id="text"><a href="">Giày Nam</a></div>
+              </div>
+              </div>
+              <div id="nam">
+              <img src="image/anh1.jpg" class="image" width="100%" height="100%">
+                <div id="middle">
+                <div id="text"><a href="">Giày Nữ</a></div>
+                </div>
+              </div>
+      </section>
+      
+      <aside><br>
+      <h2 style="text-align: center; color: rgb(68, 65, 63);">Sản phẩm mới nhất</h2>
+
+              <code></code>
+              
+            </aside>
+
+
+
+     
+
+            <footer>
+              <div id="anh1">
+            <img src="image/Capture.PNG" width="100%">
+            </div>
+            <div id="footer1">
+            <div id="class1">
+              <h2>Gọi Mua Hàng</h2>
+              <h1>1800 1162</h1>
+              <p>Tất cả các ngày trong tuần</p>	
+              </div>
+            <div id="class1">
+              <h2>Góp Ý, Khiếu Nại</h2>
+                <h1>1800 1160</h1>
+                <p>Tất cả các ngày trong tuần, trừ ngày lễ</p>
+              </div>
+              <div id="class3">
+                <h2 id="chu">Đăng Ký Nhận Thông Tin</h2>
+      <input id="form" type="email" value="Nhập email của bạn tại đây">
+                <button onClick="">Đăng Ký</button>
+              </div>
+              <div id="class1">
+              <h2>Qua Mạng Xã Hội</h2><br>
+                <img src="image/Capture1.PNG">
+                </div>
+            </div>
+              </footer>     
+                  
+            
+           
+    </div>
+    
+   
+    </body>
+</html>
+ 
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="js/jquery.flexslider.js"></script>
+            <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+           <script src="js/main.js"></script>
+              
+        
+            <script>
+          // Can also be used with $(document).ready()
+          $(document).ready(function() {
+            $('.flexslider').flexslider({
+              animation: "slide",
+              controlNav: "thumbnails"
+            });
+          });
+            </script>

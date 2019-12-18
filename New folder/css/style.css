@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+#all{width: 1200px; margin: auto; display: grid;}
+#logo{height: 100px; background: black; text-align: center;}
+nav{height: 60px; background: rgba(80,80,80,1);}
+#slider{height: 250px; width: 1200px; display: inline-block;overflow: hidden;position: relative;}
+section{height: 200px; margin: 5px; background: #fff; margin: 20px 0 0 0}
+
+#nam{height: 200px; width: 50%; float: left;position: relative}
+.image{opacity: 1; display: block; width: 100%; height: auto;transition: .5s ease; backface-visibility: hidden}
+#middle{transition: .5s ease; opacity: 0; position: absolute; top: 50%; left: 50%;transform:translate(-50%, -50%);text-align: center}
+#nam:hover .image{opacity: 0.3}
+#nam:hover #middle{opacity: 1}
+#text{background-color: #C9C2C2; color: #514C4C; font-size: 30px; padding: 16px 32px}
+#text a{text-decoration: none;}
+
+aside{height: 2600px; margin: 5px; background: #eeeeee; text-align: center; display: grid;}
+
+article{width: 250px; height:350px; background: #fff; border:1px solid #cdcdcd;margin: 25px 20px; text-align: center; padding-top: 30px; float: left; margin-left: 26px; }
+
+
+
+
+/*menu*/
+nav ul{list-style-type: none; text-align: center; display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; margin: 0px 0px 0px 70px;}
+nav li{ width: 100px; line-height: 60px; display: grid;}
+nav a{text-decoration: none; font-size: 19px; color: #fff; display: grid;}
+nav a:hover{background: #f1f1f1; color: #333;}
+/* footer*/
+#anh{height: 100px; background: #fff}
+#footer1{height: 150px; background: #fff}
+#class1{width: 250px; height:150px;float: left; margin: 0px 22px; text-align: center; padding: 20px}
+
+#class3{width: 270px; height:150px;float: left; margin: 0px 22px; text-align: center;}
+
+#form{height: 30px; width: 210px; float: left; margin: 30px 0}
+button{text-align: center; height: 30px; width: 100px; background: chocolate; border: none; border-radius: 7px; }
+#chu{width: 250px; height: 40px; padding: 30px 0;}
+
+#chitiet{display: grid; grid-template-columns: 1fr 1fr;}
+
+#noidung{width: 300px; height: 400px;  margin: 40px 0 0 0;}
+
+/* table*/
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 65%;
+      text-align: center;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+/* */
+#anh1{height: 100px; background: #fff}
+#footer1{height: 150px; background: #fff}
+#class1{width: 250px; height:150px;float: left; margin: 0px 22px; text-align: center; padding: 20px}
+
+#class3{width: 270px; height:150px;float: left; margin: 0px 22px; text-align: center;}
+
+#form{height: 30px; width: 210px; float: left; margin: 30px 0}
+#chu{width: 250px; height: 40px; padding: 30px 0;}
+
