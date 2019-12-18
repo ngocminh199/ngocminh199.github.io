@@ -1,4 +1,4 @@
-const API = 'http://5dcb5e5134d54a0014314e41.mockapi.io/products';
+const API = 'https://5dcb5e5134d54a0014314e41.mockapi.io/products';
 //phương thức kết nối giữa các thư viện và ứng dụng khác nhau
 //localstrogare giúp ta truy vấn và lưu trữ dữ liệu trên browser
 function getProducts(API){
